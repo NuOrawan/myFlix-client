@@ -43,9 +43,9 @@ myFlix-client is a client side application for making request to and receiving r
 * The application uses React Redux for state management of at least one feature (i.e., filtering movies)
 
 ## Technologies
-	* Node.js
-	* React Redux
-	* JSX
-	* SCSS
+* Node.js
+* React Redux
+* JSX
+* SCSS
 
 
