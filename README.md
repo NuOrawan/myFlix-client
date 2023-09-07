@@ -1,7 +1,7 @@
 # myFlix-client
 myFlix-client is a client side application for making request to and receiving response from server side app (myFlix) about different movies.  It includes several views that will handle data through the REST API endpoints.
 
-##Key Features
+## Key Features
 * Users are be able to use it whenever they want to read and save a list of their favorite movies.
 * Users can create a profile so I can save data about their favorite movies.
 * myFlix app itself is responsive and can therefore be used anywhere and on any device, giving all users the same experience.
@@ -31,7 +31,7 @@ myFlix-client is a client side application for making request to and receiving r
 * Allows users to remove a movie from their list of favorites
 * Allows existing users to deregiste
 
-## Other technical features.
+## Other technical features
 * The application is a single-page application (SPA) 
 * The application uses state routing to navigate between views and share URLs 
 * The application gives users the option to filter movies using a “search” feature 
