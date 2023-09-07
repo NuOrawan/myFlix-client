@@ -1,0 +1,9 @@
+node_modules
+.cache
+.parcel-cache
+.DS_Store
+.vscode
+.eslinrc.js
+/nbproject/
+/src/.DS_Store
+node_modules/*
