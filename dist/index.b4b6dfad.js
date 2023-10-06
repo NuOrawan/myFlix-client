@@ -27258,35 +27258,8 @@ const MainView = ()=>{
         lineNumber: 62,
         columnNumber: 9
     }, undefined);
-/* const [selectedMovie, setSelectedMovie] = useState(null);
-    if (selectedMovie){
-        return <MovieView movie={selectedMovie} onBackClick = { () => setSelectedMovie(null)}/>;
-    }
-    if (movies.length === 0){
-        return <div>The list is empty.</div>
-    }
-    else {
-        return (
-            <div>
-                <h2>Movie List</h2>
-                
-                    
-                    {movies.map((movie) => {
-                        <MovieCard key={movie.id} 
-                        movie={movie} 
-                        onMovieClick = { (newSelectedMovie) => {
-                            setSelectedMovie(newSelectedMovie);
-                        }}
-                        />
-                    }
-                    )}
-                
-                
-            </div>
-            
-        );
-    }*/ };
-_s(MainView, "bl4t0zSD/oE32nNK3aMLYiC7MHU=");
+};
+_s(MainView, "Yn/XZjY4cjrJbON8WURB0J+/ekU=");
 _c = MainView;
 exports.default = MainView;
 var _c;
@@ -27320,18 +27293,7 @@ const MovieCard = ({ movie, onMovieClick })=>{
     }, undefined);
 };
 _c = MovieCard;
-/*const MovieCard = (movie, onMovieClick) => {
-    return 
-        (
-            <div 
-                onClick= {() => {
-                    onMovieClick(movie);
-                }}
-            >
-                {movie.title}
-            </div>
-        );
-}; */ exports.default = MovieCard;
+exports.default = MovieCard;
 var _c;
 $RefreshReg$(_c, "MovieCard");
 
@@ -27619,29 +27581,7 @@ const MovieView = ({ movie, onBackClick })=>{
     }, undefined);
 };
 _c = MovieView;
-/*const MovieView = ({movie, onBackClick}) => {
-    return (
-        <div>
-            <div>
-            <img src={movie.image} alt = {movie.title} />
-            </div>
-            <div>
-                <span>Title: </span>
-                <span>{movie.title}</span>
-            </div>
-            <div>
-                <span>Genre: </span>
-                <span>{movie.genre}</span>
-            </div>
-            <div>
-                <span>Director: </span>
-                <span>{movie.director}</span>
-            </div>
-            
-            <button onClick ={onBackClick}>Back</button>
-        </div>
-    );
-};*/ exports.default = MovieView;
+exports.default = MovieView;
 var _c;
 $RefreshReg$(_c, "MovieView");
 

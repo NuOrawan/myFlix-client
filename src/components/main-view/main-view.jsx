@@ -20,7 +20,7 @@ const MainView = () => {
             description: "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
             director: "Chris Columbus",
             genre: "Fantasy Adventure"
-            //ImagePath: "harry_potter_and_the_philosopher_stone.jpeg"
+            //image: "harry_potter_and_the_philosopher_stone.jpeg"
         },
         {
             id: 3,
@@ -28,7 +28,7 @@ const MainView = () => {
             description: "A 2003 epic fantasy adventure film directed by Peter Jackson from a screenplay by Fran Walsh",
             director: "Peter Jackson",
             genre: "Fantasy Adventure"
-            //ImagePath: "the_Lord_of_the_rings_the_return_of_the_king.jpeg"
+            //image: "the_Lord_of_the_rings_the_return_of_the_king.jpeg"
         },
         {
             id: 4,
@@ -36,7 +36,7 @@ const MainView = () => {
             description: "Black Hawk Down is a 2001 war film directed and produced by Ridley Scott, and co-produced by Jerry Bruckheimer, from a screenplay by Ken Nolan.",
             director: "Ridley Scott",
             genre: "Action"
-            //ImagePath: "black_hawk_down.jpeg"
+            //image: "black_hawk_down.jpeg"
         },
         {
             id: 5,
@@ -44,7 +44,7 @@ const MainView = () => {
             description: "After a bad blind date, a man and woman find themselves stuck together at a resort in Africa, where their attractions grows as their respective kids.",
             director: "Frank Coraci ",
             genre: "Comedy"
-            //ImagePath: "blended.jpeg"
+            //image: "blended.jpeg"
         }
     ]);
     
@@ -73,33 +73,6 @@ const MainView = () => {
             )}
         </div>
       );
-   /* const [selectedMovie, setSelectedMovie] = useState(null);
-    if (selectedMovie){
-        return <MovieView movie={selectedMovie} onBackClick = { () => setSelectedMovie(null)}/>;
-    }
-    if (movies.length === 0){
-        return <div>The list is empty.</div>
-    }
-    else {
-        return (
-            <div>
-                <h2>Movie List</h2>
-                
-                    
-                    {movies.map((movie) => {
-                        <MovieCard key={movie.id} 
-                        movie={movie} 
-                        onMovieClick = { (newSelectedMovie) => {
-                            setSelectedMovie(newSelectedMovie);
-                        }}
-                        />
-                    }
-                    )}
-                
-                
-            </div>
-            
-        );
-    }*/
+   
 }
 export default MainView;
