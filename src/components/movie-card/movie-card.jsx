@@ -1,6 +1,15 @@
-export default MovieCard;
+const MovieCard = ({ movie, onMovieClick }) => {
+    return (
+        <div
+            onClick ={() =>{
+                onMovieClick(movie);
+            }}
+            >{movie.title}
+        </div>
+        );
+  };
 
-const MovieCard = (movie, onMovieClick) => {
+/*const MovieCard = (movie, onMovieClick) => {
     return 
         (
             <div 
@@ -11,4 +20,5 @@ const MovieCard = (movie, onMovieClick) => {
                 {movie.title}
             </div>
         );
-}; 
+}; */
+export default MovieCard;
