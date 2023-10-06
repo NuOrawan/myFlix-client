@@ -12,7 +12,7 @@ const MainView = () => {
             description: "A young FBI cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer.",
             director: "Jonathan Demme",
             genre: "Thriller",
-            image: "arrival.jpeg"
+            image: "./img/arrival.jpeg"
         },
         {
             id: 2,

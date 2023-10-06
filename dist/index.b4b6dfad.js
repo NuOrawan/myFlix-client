@@ -27185,7 +27185,7 @@ const MainView = ()=>{
             description: "A young FBI cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer.",
             director: "Jonathan Demme",
             genre: "Thriller",
-            image: "arrival.jpeg"
+            image: "./img/arrival.jpeg"
         },
         {
             id: 2,
@@ -27259,7 +27259,7 @@ const MainView = ()=>{
         columnNumber: 9
     }, undefined);
 };
-_s(MainView, "Yn/XZjY4cjrJbON8WURB0J+/ekU=");
+_s(MainView, "BI5Qv+oVWdOtCfHnpUbpw6ehJWE=");
 _c = MainView;
 exports.default = MainView;
 var _c;
